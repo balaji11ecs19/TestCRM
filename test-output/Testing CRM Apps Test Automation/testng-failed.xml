@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing CRM Apps Test Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Regression testcases(failed)">
+    <classes>
+      <class name="com.qa.testcases.Test_HomePage">
+        <methods>
+          <include name="homepagetitleTest"/>
+          <include name="teardown"/>
+          <include name="homepagenameTest"/>
+          <include name="homepageConatctIconClick_Test"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.Test_HomePage -->
+      <class name="com.qa.testcases.Test_LoginPage">
+        <methods>
+          <include name="Setup"/>
+          <include name="teardown"/>
+          <include name="Login_UN_PWD_Test"/>
+        </methods>
+      </class> <!-- com.qa.testcases.Test_LoginPage -->
+      <class name="com.qa.testcases.Test_ContactPage">
+        <methods>
+          <include name="create_newcontant_Test"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.Test_ContactPage -->
+    </classes>
+  </test> <!-- Regression testcases(failed) -->
+</suite> <!-- Failed suite [Testing CRM Apps Test Automation] -->

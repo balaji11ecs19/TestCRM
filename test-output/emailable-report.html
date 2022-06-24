@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Testing CRM Apps Test Automation</th></tr>
+<tr><td><a href="#t0">Regression testcases</a></td><td class="num">3</td><td class="num attn">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">58,038</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testing CRM Apps Test Automation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression testcases &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.testcases.Test_ContactPage</td><td><a href="#m0">Setup</a></td><td rowspan="1">1656070135848</td><td rowspan="1">10986</td></tr><tr class="failedodd"><td rowspan="1">com.qa.testcases.Test_HomePage</td><td><a href="#m1">Setup</a></td><td rowspan="1">1656070112116</td><td rowspan="1">7767</td></tr><tr><th colspan="4">Regression testcases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.testcases.Test_LoginPage</td><td><a href="#m2">Login_UN_PWD_Test</a></td><td rowspan="1">1656070109024</td><td rowspan="1">2804</td></tr><tr><th colspan="4">Regression testcases &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.testcases.Test_ContactPage</td><td><a href="#m3">teardown</a></td><td rowspan="1">1656070146844</td><td rowspan="1">-1656070146844</td></tr><tr class="skippedodd"><td rowspan="5">com.qa.testcases.Test_HomePage</td><td><a href="#m4">Setup</a></td><td rowspan="2">1656070119895</td><td rowspan="2">-1656070119895</td></tr><tr class="skippedodd"><td><a href="#m5">Setup</a></td></tr><tr class="skippedodd"><td><a href="#m6">teardown</a></td><td rowspan="3">1656070119892</td><td rowspan="3">-1656070119892</td></tr><tr class="skippedodd"><td><a href="#m7">teardown</a></td></tr><tr class="skippedodd"><td><a href="#m8">teardown</a></td></tr><tr><th colspan="4">Regression testcases &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.testcases.Test_ContactPage</td><td><a href="#m9">create_newcontant_Test</a></td><td rowspan="1">1656070146835</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">com.qa.testcases.Test_HomePage</td><td><a href="#m10">homepageConatctIconClick_Test</a></td><td rowspan="1">1656070119906</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m11">homepagenameTest</a></td><td rowspan="1">1656070119896</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m12">homepagetitleTest</a></td><td rowspan="1">1656070119887</td><td rowspan="1">0</td></tr><tr><th colspan="4">Regression testcases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.testcases.Test_ContactPage</td><td><a href="#m13">contactspagetitleTest</a></td><td rowspan="1">1656070132792</td><td rowspan="1">2696</td></tr><tr class="passedodd"><td rowspan="2">com.qa.testcases.Test_LoginPage</td><td><a href="#m14">crmlogoTest</a></td><td rowspan="1">1656070102913</td><td rowspan="1">146</td></tr><tr class="passedodd"><td><a href="#m15">loginpagetitleTest</a></td><td rowspan="1">1656070097412</td><td rowspan="1">114</td></tr></tbody>
+</table>
+<h2>Regression testcases</h2><h3 id="m0">com.qa.testcases.Test_ContactPage#Setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com/&quot;&gt;...&lt;/a&gt; is not clickable at point (987, 30). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 0.403225;&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=102.0.1245.44)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-1ES659O6&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1d4b5ce169f60f305228128102c7c720, clickElement {id=58e54258-6f4b-4d96-a91b-a12452f88496}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.44, ms:edgeOptions: {debuggerAddress: localhost:56189}, msedge: {msedgedriverVersion: 102.0.1245.44 (72efbf98e0b4..., userDataDir: C:\Users\BALAJI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56189/devtoo..., se:cdpVersion: 102.0.1245.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (1d4b5ce169f60f305228128102c7c720)] -&gt; xpath: //a[contains(text(),&apos;Login&apos;)]]
+Session ID: 1d4b5ce169f60f305228128102c7c720
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:42)
+	at com.qa.testcases.Test_ContactPage.Setup(Test_ContactPage.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testcases.Test_HomePage#Setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com/&quot;&gt;...&lt;/a&gt; is not clickable at point (987, 30). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=102.0.1245.44)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-1ES659O6&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2ff34fc786806fb938833b7076e2c349, clickElement {id=f7b344ce-e5f6-4187-8276-f2ae148d9d8b}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.44, ms:edgeOptions: {debuggerAddress: localhost:56053}, msedge: {msedgedriverVersion: 102.0.1245.44 (72efbf98e0b4..., userDataDir: C:\Users\BALAJI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56053/devtoo..., se:cdpVersion: 102.0.1245.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (2ff34fc786806fb938833b7076e2c349)] -&gt; xpath: //a[contains(text(),&apos;Login&apos;)]]
+Session ID: 2ff34fc786806fb938833b7076e2c349
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:42)
+	at com.qa.testcases.Test_HomePage.Setup(Test_HomePage.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.testcases.Test_LoginPage#Login_UN_PWD_Test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com/&quot;&gt;...&lt;/a&gt; is not clickable at point (987, 45). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 0.207025;&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=102.0.1245.44)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-1ES659O6&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [39c6166dfc48b3e10fafb26938842c33, clickElement {id=c267dbbf-e04e-4a22-9afe-bd6c18dd9039}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.44, ms:edgeOptions: {debuggerAddress: localhost:56004}, msedge: {msedgedriverVersion: 102.0.1245.44 (72efbf98e0b4..., userDataDir: C:\Users\BALAJI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56004/devtoo..., se:cdpVersion: 102.0.1245.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (39c6166dfc48b3e10fafb26938842c33)] -&gt; xpath: //a[contains(text(),&apos;Login&apos;)]]
+Session ID: 39c6166dfc48b3e10fafb26938842c33
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:42)
+	at com.qa.testcases.Test_LoginPage.Login_UN_PWD_Test(Test_LoginPage.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.testcases.Test_ContactPage#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.testcases.Test_HomePage#Setup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.testcases.Test_HomePage#Setup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.testcases.Test_HomePage#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.testcases.Test_HomePage#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.testcases.Test_HomePage#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.testcases.Test_ContactPage#create_newcontant_Test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com/&quot;&gt;...&lt;/a&gt; is not clickable at point (987, 30). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 0.403225;&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=102.0.1245.44)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-1ES659O6&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1d4b5ce169f60f305228128102c7c720, clickElement {id=58e54258-6f4b-4d96-a91b-a12452f88496}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.44, ms:edgeOptions: {debuggerAddress: localhost:56189}, msedge: {msedgedriverVersion: 102.0.1245.44 (72efbf98e0b4..., userDataDir: C:\Users\BALAJI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56189/devtoo..., se:cdpVersion: 102.0.1245.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (1d4b5ce169f60f305228128102c7c720)] -&gt; xpath: //a[contains(text(),&apos;Login&apos;)]]
+Session ID: 1d4b5ce169f60f305228128102c7c720
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:42)
+	at com.qa.testcases.Test_ContactPage.Setup(Test_ContactPage.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.testcases.Test_HomePage#homepageConatctIconClick_Test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com/&quot;&gt;...&lt;/a&gt; is not clickable at point (987, 30). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=102.0.1245.44)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-1ES659O6&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2ff34fc786806fb938833b7076e2c349, clickElement {id=f7b344ce-e5f6-4187-8276-f2ae148d9d8b}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.44, ms:edgeOptions: {debuggerAddress: localhost:56053}, msedge: {msedgedriverVersion: 102.0.1245.44 (72efbf98e0b4..., userDataDir: C:\Users\BALAJI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56053/devtoo..., se:cdpVersion: 102.0.1245.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (2ff34fc786806fb938833b7076e2c349)] -&gt; xpath: //a[contains(text(),&apos;Login&apos;)]]
+Session ID: 2ff34fc786806fb938833b7076e2c349
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:42)
+	at com.qa.testcases.Test_HomePage.Setup(Test_HomePage.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.qa.testcases.Test_HomePage#homepagenameTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com/&quot;&gt;...&lt;/a&gt; is not clickable at point (987, 30). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=102.0.1245.44)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-1ES659O6&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2ff34fc786806fb938833b7076e2c349, clickElement {id=f7b344ce-e5f6-4187-8276-f2ae148d9d8b}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.44, ms:edgeOptions: {debuggerAddress: localhost:56053}, msedge: {msedgedriverVersion: 102.0.1245.44 (72efbf98e0b4..., userDataDir: C:\Users\BALAJI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56053/devtoo..., se:cdpVersion: 102.0.1245.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (2ff34fc786806fb938833b7076e2c349)] -&gt; xpath: //a[contains(text(),&apos;Login&apos;)]]
+Session ID: 2ff34fc786806fb938833b7076e2c349
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:42)
+	at com.qa.testcases.Test_HomePage.Setup(Test_HomePage.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.qa.testcases.Test_HomePage#homepagetitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://ui.freecrm.com/&quot;&gt;...&lt;/a&gt; is not clickable at point (987, 30). Other element would receive the click: &lt;div id=&quot;preloader&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=102.0.1245.44)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-1ES659O6&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2ff34fc786806fb938833b7076e2c349, clickElement {id=f7b344ce-e5f6-4187-8276-f2ae148d9d8b}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.44, ms:edgeOptions: {debuggerAddress: localhost:56053}, msedge: {msedgedriverVersion: 102.0.1245.44 (72efbf98e0b4..., userDataDir: C:\Users\BALAJI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56053/devtoo..., se:cdpVersion: 102.0.1245.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (2ff34fc786806fb938833b7076e2c349)] -&gt; xpath: //a[contains(text(),&apos;Login&apos;)]]
+Session ID: 2ff34fc786806fb938833b7076e2c349
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:42)
+	at com.qa.testcases.Test_HomePage.Setup(Test_HomePage.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.qa.testcases.Test_ContactPage#contactspagetitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.qa.testcases.Test_LoginPage#crmlogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.qa.testcases.Test_LoginPage#loginpagetitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
